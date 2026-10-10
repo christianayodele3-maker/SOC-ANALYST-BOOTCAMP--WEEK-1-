@@ -72,7 +72,7 @@ This shows that host logs alone are not enough, and that network visibility must
 
 
 
-Evidence: `A-ping-kali-after-rule.png`,.
+Evidence: `A-ping-kali-after-rule.png`.
 **Why TTL differs:** Linux hosts reply with TTL 64 and Windows with TTL 128 by default, which is consistent with each machine's operating system.
 
 ---
