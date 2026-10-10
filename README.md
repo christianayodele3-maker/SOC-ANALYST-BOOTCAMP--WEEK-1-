@@ -68,11 +68,11 @@ This shows that host logs alone are not enough, and that network visibility must
 
 
 
-![Kali pings svr1 and Windows after the rule](evidence/A-ping-kali-after-rule.png)
+![Kali pings svr1 and Windows after the rule](/A-ping-kali-after-rule.png)
 
 
 
-Evidence: `A-ping-kali-after-rule.png`.
+A-ping-kali-after-rule.png.
 **Why TTL differs:** Linux hosts reply with TTL 64 and Windows with TTL 128 by default, which is consistent with each machine's operating system.
 
 ---
@@ -93,7 +93,7 @@ All addresses are DHCP-assigned, so they may change after a reboot.
 | Member | Connectivity test | Evidence |
 |---|---|---|
 | Haywhy | Kali → svr1 ping 0% loss; Windows → svr1/Kali ping 0% loss; SSH Kali → svr1 | `A-ping-*.png`, `C-ssh-session.png` |
-| **[TODO: other members]** | | |
+
 
 ---
 
